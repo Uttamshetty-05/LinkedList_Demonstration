@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Linked List Visualizer Pro</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<h1>🚀 Linked List Visualizer Pro</h1>
+
+<div class="controls">
+<input type="text" id="valueInput" placeholder="Enter value">
+<button onclick="insertStart()">Insert Start</button>
+<button onclick="insertEnd()">Insert End</button>
+<button onclick="deleteNode()">Delete</button>
+<button onclick="searchNode()">Search</button>
+<button onclick="reverseList()">Reverse</button>
+<button onclick="findMiddle()">Middle</button>
+<button onclick="countNodes()">Count</button>
+<button onclick="clearList()">Clear</button>
+</div>
+
+<div id="status"></div>
+
+<h3>HEAD ↓</h3>
+<div id="listContainer"></div>
+
+<div class="history">
+<h3>Operation History</h3>
+<ul id="history"></ul>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
